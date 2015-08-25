@@ -95,7 +95,8 @@
         label.backgroundColor=[UIColor clearColor];
         label.font=[UIFont systemFontOfSize:13];
         label.textAlignment=NSTextAlignmentCenter;
-        label.text=@"输入任何HTTP,RTSP,RTMP,RTP地址播放网络流媒体或直播";
+        label.text=NSLocalizedString(@"Enter any HTTP, RTSP, RTMP, RTP address play network streaming or live", nil);
+       
         label.numberOfLines=0;
          [view addSubview:label];
     }

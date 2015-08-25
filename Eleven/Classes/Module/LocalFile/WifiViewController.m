@@ -33,7 +33,7 @@
     //    titleLabel.text=@"可以通过itunes或者wifi传输视频\n支持mp3,caff,aiff,ogg,wma,m4a,m4v,wmv,3gp,mp4,mov,avi,mkv,mpeg,mpg,flv,vob等格式";
     titleLabel.font=[UIFont systemFontOfSize:13];
     titleLabel.textColor=YiTextGray;
-    titleLabel.text=@"打开下面的按钮，在浏览器地址栏输入即将出现的地址\n传输完成记得关闭按钮";
+    titleLabel.text=NSLocalizedString(@"Open button, and then enter the address in the browser address bar\nClose button Remember when the transfer is complete", nil);
     [self.view addSubview:titleLabel];
     self.view.backgroundColor = [UIColor whiteColor];
 
