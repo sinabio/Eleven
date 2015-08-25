@@ -1,0 +1,21 @@
+//
+//  Eleven-Prefix.pch
+//  Eleven
+//
+//  Created by coderyi on 15/8/18.
+//  Copyright (c) 2015年 coderyi. All rights reserved.
+//
+
+#ifndef Eleven_Eleven_Prefix_pch
+#define Eleven_Eleven_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+#import "AppConfig.h"
+#import "AppPrefixFile.h"

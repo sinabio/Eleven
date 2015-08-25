@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  Eleven
+
+  Created by coderyi on 15/8/18.
+  Copyright (c) 2015年 coderyi. All rights reserved.
+*/
+"Eleven Video"="十一 视频播放器";
+"Local Video"="本地视频";
+"Network Video"="网络视频";
+"More"="更多";
+"a simple powerful video player"="一个简单强大的播放器";
+
+"wifi transfer"="wifi传输文件";
+
+"play"="播放";
+"clear"="清空";
+"rorate"="旋转";
