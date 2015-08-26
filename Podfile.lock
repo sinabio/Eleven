@@ -1,13 +1,10 @@
 PODS:
-  - JSONModel (1.1.0)
   - REFrostedViewController (2.4.8)
 
 DEPENDENCIES:
-  - JSONModel (~> 1.1.0)
   - REFrostedViewController (~> 2.4.8)
 
 SPEC CHECKSUMS:
-  JSONModel: ec77e9865236a7a09d9cf7668df6b4b328d9ec1d
   REFrostedViewController: a893b4979ba1f200c547aef9ff4c3fd5a18f5923
 
 COCOAPODS: 0.38.2

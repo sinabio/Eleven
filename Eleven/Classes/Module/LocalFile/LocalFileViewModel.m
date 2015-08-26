@@ -75,7 +75,7 @@
     NSLog(@"文件是否存在: %@",[fileManager isExecutableFileAtPath:localFile]?@"YES":@"NO");
     
     
-    return [fileManager isExecutableFileAtPath:localFile];
+    return ![fileManager isExecutableFileAtPath:localFile];
 
 }
 @end
