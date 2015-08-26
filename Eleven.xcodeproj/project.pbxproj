@@ -30,7 +30,6 @@
 		0A07B8881B85BED4004245F3 /* KxMovieDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A07B8811B85BED4004245F3 /* KxMovieDecoder.m */; };
 		0A07B8891B85BED4004245F3 /* KxMovieGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A07B8831B85BED4004245F3 /* KxMovieGLView.m */; };
 		0A07B88A1B85BED4004245F3 /* KxMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A07B8851B85BED4004245F3 /* KxMovieViewController.m */; };
-		0A07B8951B85BF3A004245F3 /* FFmpeg-iOS in Resources */ = {isa = PBXBuildFile; fileRef = 0A07B8941B85BF3A004245F3 /* FFmpeg-iOS */; };
 		0A4369421B83089B00970757 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4369281B83089B00970757 /* AsyncSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		0A4369431B83089B00970757 /* DDData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A43692A1B83089B00970757 /* DDData.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		0A4369441B83089B00970757 /* DDNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A43692C1B83089B00970757 /* DDNumber.m */; };
@@ -112,7 +111,6 @@
 		0A07B8831B85BED4004245F3 /* KxMovieGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxMovieGLView.m; sourceTree = "<group>"; };
 		0A07B8841B85BED4004245F3 /* KxMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxMovieViewController.h; sourceTree = "<group>"; };
 		0A07B8851B85BED4004245F3 /* KxMovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxMovieViewController.m; sourceTree = "<group>"; };
-		0A07B8941B85BF3A004245F3 /* FFmpeg-iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "FFmpeg-iOS"; sourceTree = "<group>"; };
 		0A07B8A61B85CBBB004245F3 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		0A07B8A81B85CBC5004245F3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		0A4369271B83089B00970757 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
@@ -348,7 +346,6 @@
 			isa = PBXGroup;
 			children = (
 				0A8511191B874B82008C1E97 /* YiRefresh */,
-				0A07B8941B85BF3A004245F3 /* FFmpeg-iOS */,
 				0A07B87A1B85BED4004245F3 /* kxmovie */,
 				0A4369251B83089B00970757 /* CocoaWebResource */,
 			);
@@ -673,7 +670,6 @@
 				0A490E2C1B82D6E600DFF33D /* Localizable.strings in Resources */,
 				0A85111F1B874B82008C1E97 /* down@2x.png in Resources */,
 				0A490DF91B82D20900DFF33D /* Main.storyboard in Resources */,
-				0A07B8951B85BF3A004245F3 /* FFmpeg-iOS in Resources */,
 				0A490DFE1B82D20900DFF33D /* LaunchScreen.xib in Resources */,
 				0A490DFB1B82D20900DFF33D /* Images.xcassets in Resources */,
 			);
@@ -892,6 +888,7 @@
 			baseConfigurationReference = FC28AD7A152FF02E0B37D2E7 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PREFIX_HEADER = "Eleven/Eleven-Prefix.pch";
@@ -920,6 +917,7 @@
 			baseConfigurationReference = 0967CA784DA8A0202019CC71 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PREFIX_HEADER = "Eleven/Eleven-Prefix.pch";
