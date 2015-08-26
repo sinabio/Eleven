@@ -54,7 +54,13 @@ GitHub:[https://github.com/coderyi](https://github.com/coderyi)
 email:coderyi@foxmail.com
 
 
+##Reference 
 
+[iOS配置FFmpeg框架](http://cnbin.github.io/blog/2015/05/19/iospei-zhi-ffmpegkuang-jia/)
+
+[FFmpeg-wikipedia](https://zh.wikipedia.org/wiki/FFmpeg)
+
+[Vitamio测试网络视频地址](https://www.vitamio.org/docs/Basic/2013/0508/14.html)
 
 ##App Preview
 
