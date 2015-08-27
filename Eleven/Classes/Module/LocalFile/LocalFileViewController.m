@@ -59,6 +59,7 @@
     titleLabel.textColor=YiTextGray;
     //    titleLabel.text=@"可以通过itunes或者wifi传输视频\n支持mp3,caff,aiff,ogg,wma,m4a,m4v,wmv,3gp,mp4,mov,avi,mkv,mpeg,mpg,flv,vob等格式";
     titleLabel.text=NSLocalizedString(@"You can transfer video files via itunes or wifi\nSupport m4v, wmv, 3gp, mp4, mov, avi, mkv, mpeg, mpg, flv, vob format", nil);
+    //来自kxmovie项目的MainViewController类
 //    
     tableView1.tableHeaderView=titleLabel;
     [self addHeader];

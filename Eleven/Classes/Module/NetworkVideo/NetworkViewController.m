@@ -96,7 +96,7 @@
         label.font=[UIFont systemFontOfSize:13];
         label.textAlignment=NSTextAlignmentCenter;
         label.text=NSLocalizedString(@"Enter any HTTP, RTSP, RTMP, RTP address play network streaming or live", nil);
-       
+//       来自wikipedia和https://www.vitamio.org/docs/Basic/2013/0429/3.html
         label.numberOfLines=0;
          [view addSubview:label];
     }
